@@ -1,16 +1,23 @@
-### Hi there 👋
+class Wojtek:
+    def __init__(self):
+        self.hobbies = ['horse riding', 'rock climbing']
+        self.smart = random.choice([False, True])
+        self.languages = ['Python', 'CSS', 'HTML', 'Java']
+        self.contact = {"Discord": "OhFoxies#7805",
+                        "Email": "dcswzium@gmail.com",
+                        "Wanna play?": "https://steamcommunity.com/id/OhFoxies"}
+        self.skills = None
 
-<!--
-**OhFoxies/OhFoxies** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    def getbetter(self):
+        raise SystemError
 
-Here are some ideas to get you started:
+    def code(self):
+        if self.smart:
+            self.startproject()
+        else:
+            self.sleep()
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    @staticmethod
+    def startproject():
+        time.sleep(random.randint(5, 10))
+        print("Ok I've got bored I don't do this any more.")
