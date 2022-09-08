@@ -1,3 +1,4 @@
+Hello :wave:
 ```python
 class Wojtek:
 	def __init__(self):
@@ -21,5 +22,5 @@ class Wojtek:
 	@staticmethod
 	def startproject():
 		time.sleep(random.randint(5, 10))
-		print('Ok I''ve got bored I don''t do this any more.')
+		print("Ok I've got bored I don't do this any more.")
 ```
