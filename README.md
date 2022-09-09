@@ -26,5 +26,6 @@ class Creature(ohfoxies, Life):
     @staticmethod
     def startproject():
         time.sleep(random.randint(5, 10))
+        sleep()
         return "I'm lazy and not motivated when I start I never finish this. "
 ```
