@@ -19,7 +19,7 @@ class Creature(ohfoxies, Life):
     def code(self):
         if self.smart:
             start_new_project()
-            return "Check out my repositories and feel free to report any bugs. That will make me better."
+            return "Check out my repositories and report any bugs."
         else:
             go_to_sleep()
             return "I'm mostly dumb, if I fill dumb I sleep."
