@@ -24,5 +24,5 @@ class Creature(ohfoxies, Life):
             go_to_sleep()
 
     def playgames(self):
-        choice = random.choice['CSGO', 'Minecraft', 'Bloons TD6', 'Sea of Thieves']
+        choice = random.choice['CSGO', 'Minecraft', 'Bloons TD6', 'Lego']
 ```
