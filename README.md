@@ -4,7 +4,7 @@ from projects import MinecraftRPGServer as MyMainProject
 
 class Creature(ohfoxies, Life):
     def __init__(self):
-        self.hobbies = ['horse riding', 'rock climbing']
+        self.hobbies = ['horse riding', 'rock climbing', 'Video Games']
         self.smart = random.choice([False, True])
         self.languages = ['Python', 'CSS', 'HTML', 'Java']
         self.contact = {'Discord': 'OhFoxies#7805',
@@ -25,5 +25,9 @@ class Creature(ohfoxies, Life):
             go_to_sleep()
             return "I'm mostly dumb, if I fill dumb I sleep."
 
-    def 
+    def playgames(self):
+        if self.mood == 'Angry':
+            choice = 'CSGO'
+        else:
+            choice = random.choice['Minecraft', 'Bloons TD6', 'Sea of Thieves']
 ```
