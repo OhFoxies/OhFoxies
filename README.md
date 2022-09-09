@@ -22,11 +22,7 @@ class Creature(ohfoxies, Life):
             return "Check out my repositories and report any bugs."
         else:
             go_to_sleep()
-            return "I'm mostly dumb, if I fill dumb I sleep."
 
     def playgames(self):
-
-
-
-            choice = random.choice['Minecraft', 'Bloons TD6', 'Sea of Thieves']
+        choice = random.choice['CSGO', 'Minecraft', 'Bloons TD6', 'Sea of Thieves']
 ```
