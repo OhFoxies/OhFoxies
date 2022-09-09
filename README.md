@@ -14,18 +14,16 @@ class Creature(ohfoxies, Life):
 
     def getbetter(self):
         fail()
-        print("Error: You can't get better.")
+        return "Error: Too bad. You can't get better."
 
     def code(self):
         if self.smart:
-            startproject()
+            start_new_project()
+            return "Check out my repositories and report bugs! 
+                    That will make me smarter"
         else:
-            sleep()
-        return "I'm mostly dumb, if I fill dumb i sleep."
+            go_to_sleep()
+            return "I'm mostly dumb, if I fill dumb I sleep."
 
-    @staticmethod
-    def startproject():
-        time.sleep(random.randint(5, 10))
-        sleep()
-        return "I'm lazy and not motivated when I start I never finish this. "
+    def 
 ```
