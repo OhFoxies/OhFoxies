@@ -25,8 +25,8 @@ class Creature(ohfoxies, Life):
             return "I'm mostly dumb, if I fill dumb I sleep."
 
     def playgames(self):
-        if self.mood == 'Angry':
-            choice = 'CSGO'
-        else:
+
+
+
             choice = random.choice['Minecraft', 'Bloons TD6', 'Sea of Thieves']
 ```
