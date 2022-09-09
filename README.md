@@ -1,6 +1,6 @@
 ## Hello :wave:
 ```python
-from projects import MinecraftRPGServer as MyMainProject
+from projects import PyFlags as MyMainProject
 
 class Creature(ohfoxies, Life):
     def __init__(self):
