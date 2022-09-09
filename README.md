@@ -13,12 +13,12 @@ class Creature(ohfoxies, Life):
         self.skills = None
 
     def getbetter(self):
-        self.fail()
+        fail()
         print("Error: You can't get better.")
 
     def code(self):
         if self.smart:
-            self.startproject()
+            startproject()
         else:
             sleep()
         return "I'm mostly dumb, if I fill dumb i sleep."
