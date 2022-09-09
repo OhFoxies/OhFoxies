@@ -2,7 +2,7 @@
 ```python
 from projects import MinecraftRPGServer as MyMainProject
 
-class Wojtek:
+class Creature(ohfoxies, Life):
     def __init__(self):
         self.hobbies = ['horse riding', 'rock climbing']
         self.smart = random.choice([False, True])
@@ -20,10 +20,11 @@ class Wojtek:
         if self.smart:
             self.startproject()
         else:
-            self.sleep()
+            sleep()
+        return "I'm mostly dumb, if I fill dumb i sleep."
 
     @staticmethod
     def startproject():
         time.sleep(random.randint(5, 10))
-        print("Ok I've got bored I don't do this any more.")
+        return "I'm lazy and not motivated when I start I never finish this. "
 ```
