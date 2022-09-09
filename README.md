@@ -1,6 +1,6 @@
 ## Hello :wave:
 ```python
-from life import MinecraftRPGServer as MyMainProject
+from projects import MinecraftRPGServer as MyMainProject
 
 class Wojtek:
     def __init__(self):
