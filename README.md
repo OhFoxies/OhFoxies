@@ -11,7 +11,8 @@ class Wojtek:
         self.skills = None
 
     def getbetter(self):
-        raise SystemError
+        self.fail()
+        print("Error: You can't get better.")
 
     def code(self):
         if self.smart:
