@@ -1,4 +1,4 @@
-## Hello :wave:
+
 ```python
 from projects import PyFlags as MyMainProject
 
