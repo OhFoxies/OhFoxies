@@ -1,6 +1,6 @@
 
 ```python
-from projects import PyFlags as MyMainProject
+from __future__ import PyFlags as MyMainProject
 
 class Creature(ohfoxies, Life):
     def __init__(self):
