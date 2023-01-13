@@ -11,11 +11,11 @@ class Creature(ohfoxies, Life):
                         'Wanna play?': 'https://steamcommunity.com/id/OhFoxies'}
         self.skills = None
 
-    def getbetter(self):
+    def getbetter(self) -> str:
         fail()
         return "Error: Too bad. You can't get better."
 
-    def code(self):
+    def code(self) -> str | None:
         if self.smart:
             start_new_project()
             return "Check out my repositories and report any bugs."
