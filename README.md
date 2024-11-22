@@ -1,6 +1,5 @@
 
 ```python
-# https://code-with-me.global.jetbrains.com/r53lP-5Am2Sr5FfX2LcDRA#p=IU&fp=DB00A7F645A6D135BC9302D4D98C322145148FA4FABB4A28E42C905A81E53DE3&newUi=true
 class Creature(ohfoxies, Life):
     def __init__(self):
         self.hobbies = ['horse riding', 'rock climbing', 'Video Games']
